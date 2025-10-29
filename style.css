@@ -2,6 +2,7 @@ body {
     color: rgb(0, 240, 240);
     background: rgb(191, 80, 255);
     margin: 0px;
+    font-family: "Cinzel", sans-serif; 
 }
 
 header {
@@ -21,4 +22,13 @@ section {
 
 .chamada-texto {
     margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+
+}
+
+p{
+    font-size: 20px;
 }
