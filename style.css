@@ -2,7 +2,8 @@ body {
     color: rgb(0, 240, 240);
     background: rgb(191, 80, 255);
     margin: 0px;
-    font-family: "Cinzel", sans-serif; 
+    font-family: "Cinzel", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -32,9 +33,6 @@ p{
     font-size: 20px;
 }
 
-img{
-    height: 200px;
-}
 .categoria-videos{
     display: flex;
     overflow-x: auto;
@@ -43,4 +41,19 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(214, 0, 118);;
+}
+
+.categoria h2{
+    color: rgb(214, 0, 118);;
 }
